@@ -1,4 +1,4 @@
-from Lab2 import decorator
+from Lab2_folder import decorator
 
 
 @decorator.Memoized
@@ -28,19 +28,17 @@ def to_object_in_json(obj):
         if isinstance(key, list):
             raise TypeError("Unhashable type.")
         elif isinstance(key, tuple):
-            key = to_array_in_json(key)
-        elif isinstance(key, str):
+            raise TypeError("Keys must be str, int, float, bool or None, not tuple")
+        elif isinstance(key, (str, int, float)):
             key = "\"{}\"".format(key)
-        else:
-            ket = str(key)
         if isinstance(value, (list, tuple)):
             value = to_array_in_json(value)
         elif isinstance(value, str):
             value = "\"{}\"".format(value)
         else:
             value = str(value)
-        result += '{}: '.format(key) + value + ','
-    result = result[:-1]
+        result += '{}: '.format(key) + value + ', '
+    result = result[:-2]
     result += braces[1]
     return result
 
