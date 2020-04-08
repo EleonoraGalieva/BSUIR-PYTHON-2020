@@ -1,10 +1,12 @@
 import unittest
-from Lab2.vector import Nvector
+import math
+from Lab2_folder.vector import Nvector
 
 V1 = [1, 2, 3, 4]
 V1_LEN = 5.48
 NV1 = Nvector(V1)
 V2 = [5, 6, 7, 8]
+V2_LEN = 13.19
 NV2 = Nvector(V2)
 V3 = [9, 10]
 NV3 = Nvector(V3)
@@ -13,6 +15,7 @@ V1_SUM_V2 = [6, 8, 10, 12]
 V1_SUB_V2 = [-4, -4, -4, -4]
 V1_MUL_A = [3, 6, 9, 12]
 V1_MUL_V2 = [5, 12, 21, 32]
+ALPHA = math.pi / 3
 
 
 class TestVectorMethods(unittest.TestCase):
@@ -51,6 +54,14 @@ class TestVectorMethods(unittest.TestCase):
         self.assertEqual(NV1.get(1), 2)
         with self.assertRaises(IndexError):
             NV1.get(10)
+
+    def test_scalar_product(self):
+        self.assertAlmostEqual(NV1.scalar_product(NV2, ALPHA), V1_LEN * V2_LEN * math.cos(ALPHA), delta=0.02)
+        with self.assertRaises(TypeError):
+            NV1.scalar_product(2, ALPHA)
+
+    def test_str(self):
+        self.assertEqual(NV1.__str__(), "1 2 3 4")
 
 
 if __name__ == '__main__':
