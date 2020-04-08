@@ -8,7 +8,7 @@ QUOTE = "\""
 def from_json(text):
     result = None
     if not isinstance(text, str):
-        raise TypeError()
+        raise TypeError("Receiving must be str.")
     if text[0] == OPEN_DICTIONARY_BRACE:
         result = to_dict(text[1:-1])
     elif text[0] == OPEN_LIST_BRACE:
@@ -38,9 +38,9 @@ def to_dict(text):
     value = None
     while i != len(text):
         while text[i] != ':':
+            if i != len(text) and text[i] == OPEN_LIST_BRACE or text[i] == OPEN_DICTIONARY_BRACE:
+                raise TypeError("Unhashable type in dict. Incorrect json input.")
             i += 1
-            if i != len(text) and text[i] == OPEN_LIST_BRACE:
-                raise TypeError()
         key = to_basic(text[j:i])
         j = i
         while j != (len(text)) and text[j] != ',':
@@ -72,15 +72,18 @@ def to_array(text):
                 while text[k] != CLOSED_LIST_BRACE:
                     k += 1
                 value = to_array(text[i + 1:k])
+                i = k
             if i != (len(text)) and text[i] == OPEN_DICTIONARY_BRACE:
                 k = i
                 while text[k] != CLOSED_DICTIONARY_BRACE:
                     k += 1
                 value = to_dict(text[i + 1:k])
+                i = k
             i += 1
-        value = to_basic(text[j:i])
+        if value is None:
+            value = to_basic(text[j:i])
         result.append(value)
+        value = None
         i += 2
         j = i
     return result
-
