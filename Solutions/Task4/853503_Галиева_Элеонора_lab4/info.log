@@ -1,0 +1,13 @@
+INFO 2020-05-17 17:30:25,046 autoreload 10552 3464 Watching for file changes with StatReloader
+INFO 2020-05-17 17:30:32,444 basehttp 10552 12640 "GET / HTTP/1.1" 200 15293
+WARNING 2020-05-17 17:30:32,575 basehttp 10552 12640 "GET /static/style.css HTTP/1.1" 404 1653
+INFO 2020-05-17 17:30:33,020 basehttp 10552 12180 "GET /images/millie.jpg HTTP/1.1" 304 0
+INFO 2020-05-17 17:30:33,023 basehttp 10552 2208 "GET /images/climate.jpg HTTP/1.1" 304 0
+WARNING 2020-05-17 17:30:34,047 log 10552 2208 Not Found: /'img/core-img/favicon.ico'
+WARNING 2020-05-17 17:30:34,049 basehttp 10552 2208 "GET /'img/core-img/favicon.ico' HTTP/1.1" 404 3923
+INFO 2020-05-17 17:30:38,247 basehttp 10552 2208 "GET /myprofile/ HTTP/1.1" 200 4082
+WARNING 2020-05-17 17:30:38,309 basehttp 10552 2208 "GET /static/css/styles.css HTTP/1.1" 404 1668
+INFO 2020-05-17 17:30:38,320 basehttp 10552 12180 "GET /images/prof_pic1.png HTTP/1.1" 304 0
+INFO 2020-05-17 17:30:38,707 basehttp 10552 12180 "GET /favicon.ico/ HTTP/1.1" 200 2697
+INFO 2020-05-17 17:30:42,086 basehttp 10552 12180 "GET / HTTP/1.1" 200 15293
+WARNING 2020-05-17 17:30:42,131 basehttp 10552 12180 "GET /static/style.css HTTP/1.1" 404 1653

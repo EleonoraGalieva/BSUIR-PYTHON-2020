@@ -1,0 +1,135 @@
+INFO 2020-05-20 20:54:18,135 autoreload 1084 3960 Watching for file changes with StatReloader
+INFO 2020-05-20 20:54:32,312 basehttp 1084 9992 "GET / HTTP/1.1" 200 15293
+WARNING 2020-05-20 20:54:32,411 log 1084 9992 Not Found: /static/style.css
+WARNING 2020-05-20 20:54:32,418 log 1084 7028 Not Found: /images/_112157681_gettyimages-621744270.jpg
+WARNING 2020-05-20 20:54:32,418 basehttp 1084 9992 "GET /static/style.css HTTP/1.1" 404 179
+WARNING 2020-05-20 20:54:32,421 basehttp 1084 7028 "GET /images/_112157681_gettyimages-621744270.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:54:32,433 log 1084 468 Not Found: /images/_112037539_bannerhorizontal_2k-nc.png
+WARNING 2020-05-20 20:54:32,433 basehttp 1084 468 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 404 179
+WARNING 2020-05-20 20:54:32,869 log 1084 468 Not Found: /images/image.jpg
+WARNING 2020-05-20 20:54:32,870 log 1084 7028 Not Found: /images/_112037539_bannerhorizontal_2k-nc.png
+WARNING 2020-05-20 20:54:32,875 log 1084 9992 Not Found: /images/millie.jpg
+WARNING 2020-05-20 20:54:32,880 log 1084 232 Not Found: /images/climate.jpg
+WARNING 2020-05-20 20:54:32,880 basehttp 1084 468 "GET /images/image.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:54:32,881 basehttp 1084 7028 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 404 179
+WARNING 2020-05-20 20:54:32,881 basehttp 1084 9992 "GET /images/millie.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:54:32,885 basehttp 1084 232 "GET /images/climate.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:54:33,029 log 1084 232 Not Found: /'img/core-img/favicon.ico'
+WARNING 2020-05-20 20:54:33,032 basehttp 1084 232 "GET /'img/core-img/favicon.ico' HTTP/1.1" 404 179
+INFO 2020-05-20 20:57:36,315 autoreload 1084 3960 D:\STUDY\Python\Lab3_another_try\myfirst\myfirst\settings.py changed, reloading.
+INFO 2020-05-20 20:57:39,772 autoreload 1076 9984 Watching for file changes with StatReloader
+INFO 2020-05-20 20:57:40,721 basehttp 1076 2072 "GET / HTTP/1.1" 200 15293
+WARNING 2020-05-20 20:57:40,780 log 1076 2072 Not Found: /static/style.css
+WARNING 2020-05-20 20:57:40,790 log 1076 2208 Not Found: /images/_112037539_bannerhorizontal_2k-nc.png
+WARNING 2020-05-20 20:57:40,790 log 1076 2100 Not Found: /images/_112157681_gettyimages-621744270.jpg
+WARNING 2020-05-20 20:57:40,792 basehttp 1076 2072 "GET /static/style.css HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:40,793 basehttp 1076 2100 "GET /images/_112157681_gettyimages-621744270.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:40,794 basehttp 1076 2208 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:40,924 log 1076 2208 Not Found: /images/image.jpg
+WARNING 2020-05-20 20:57:40,927 log 1076 2100 Not Found: /images/_112037539_bannerhorizontal_2k-nc.png
+WARNING 2020-05-20 20:57:40,928 log 1076 2072 Not Found: /images/millie.jpg
+WARNING 2020-05-20 20:57:40,936 log 1076 3344 Not Found: /images/climate.jpg
+WARNING 2020-05-20 20:57:40,936 basehttp 1076 2208 "GET /images/image.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:40,937 basehttp 1076 2100 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:40,940 basehttp 1076 2072 "GET /images/millie.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:40,941 basehttp 1076 3344 "GET /images/climate.jpg HTTP/1.1" 404 179
+INFO 2020-05-20 20:57:50,745 basehttp 1076 3344 "GET /myprofile/ HTTP/1.1" 200 4082
+WARNING 2020-05-20 20:57:50,814 log 1076 3344 Not Found: /static/css/styles.css
+WARNING 2020-05-20 20:57:50,818 basehttp 1076 3344 "GET /static/css/styles.css HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:50,852 log 1076 2072 Not Found: /images/prof_pic1.png
+WARNING 2020-05-20 20:57:50,854 basehttp 1076 2072 "GET /images/prof_pic1.png HTTP/1.1" 404 179
+INFO 2020-05-20 20:57:51,295 basehttp 1076 2072 "GET /favicon.ico/ HTTP/1.1" 200 2697
+INFO 2020-05-20 20:57:54,853 basehttp 1076 2072 "GET /BUSINESS/ HTTP/1.1" 200 4218
+WARNING 2020-05-20 20:57:54,899 log 1076 2072 Not Found: /static/css/styles.css
+WARNING 2020-05-20 20:57:54,904 log 1076 3344 Not Found: /images/_111649355_basquegloves.jpg
+WARNING 2020-05-20 20:57:54,905 basehttp 1076 2072 "GET /static/css/styles.css HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:54,905 basehttp 1076 3344 "GET /images/_111649355_basquegloves.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:54,912 log 1076 2100 Not Found: /images/OCR-L-DIS-SLEEPING-BEAUTY-0519-01-1.jpg
+WARNING 2020-05-20 20:57:54,917 log 1076 2208 Not Found: /images/_111458435_hi060466764.jpg
+WARNING 2020-05-20 20:57:54,919 basehttp 1076 2100 "GET /images/OCR-L-DIS-SLEEPING-BEAUTY-0519-01-1.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:54,919 basehttp 1076 2208 "GET /images/_111458435_hi060466764.jpg HTTP/1.1" 404 179
+INFO 2020-05-20 20:57:55,175 basehttp 1076 2208 "GET /favicon.ico/ HTTP/1.1" 200 2697
+INFO 2020-05-20 20:57:56,742 basehttp 1076 2208 "GET /SCIENCE/ HTTP/1.1" 200 3723
+WARNING 2020-05-20 20:57:56,776 log 1076 2208 Not Found: /static/css/styles.css
+WARNING 2020-05-20 20:57:56,781 log 1076 2100 Not Found: /images/_112157681_gettyimages-621744270.jpg
+WARNING 2020-05-20 20:57:56,784 log 1076 3344 Not Found: /images/_112037539_bannerhorizontal_2k-nc.png
+WARNING 2020-05-20 20:57:56,785 basehttp 1076 2208 "GET /static/css/styles.css HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:56,786 basehttp 1076 2100 "GET /images/_112157681_gettyimages-621744270.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:56,788 basehttp 1076 3344 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 404 179
+INFO 2020-05-20 20:57:57,036 basehttp 1076 3344 "GET /favicon.ico/ HTTP/1.1" 200 2697
+INFO 2020-05-20 20:57:58,471 basehttp 1076 3344 "GET /myprofile/ HTTP/1.1" 200 4082
+WARNING 2020-05-20 20:57:58,511 log 1076 3344 Not Found: /static/css/styles.css
+WARNING 2020-05-20 20:57:58,515 log 1076 2100 Not Found: /images/prof_pic1.png
+WARNING 2020-05-20 20:57:58,517 basehttp 1076 3344 "GET /static/css/styles.css HTTP/1.1" 404 179
+WARNING 2020-05-20 20:57:58,518 basehttp 1076 2100 "GET /images/prof_pic1.png HTTP/1.1" 404 179
+INFO 2020-05-20 20:57:58,761 basehttp 1076 2100 "GET /favicon.ico/ HTTP/1.1" 200 2697
+INFO 2020-05-20 21:06:05,565 autoreload 1076 9984 D:\STUDY\Python\Lab3_another_try\myfirst\myfirst\settings.py changed, reloading.
+INFO 2020-05-20 21:06:08,254 autoreload 3104 5856 Watching for file changes with StatReloader
+INFO 2020-05-20 21:06:09,327 basehttp 3104 1944 "GET /myprofile/ HTTP/1.1" 200 4082
+WARNING 2020-05-20 21:06:09,388 log 3104 1944 Not Found: /static/css/styles.css
+WARNING 2020-05-20 21:06:09,390 log 3104 8540 Not Found: /images/prof_pic1.png
+WARNING 2020-05-20 21:06:09,392 basehttp 3104 1944 "GET /static/css/styles.css HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:09,392 basehttp 3104 8540 "GET /images/prof_pic1.png HTTP/1.1" 404 179
+INFO 2020-05-20 21:06:09,503 basehttp 3104 8540 "GET /favicon.ico HTTP/1.1" 301 0
+INFO 2020-05-20 21:06:09,731 basehttp 3104 8540 "GET /favicon.ico/ HTTP/1.1" 200 2697
+INFO 2020-05-20 21:06:11,526 basehttp 3104 8540 "GET / HTTP/1.1" 200 15293
+WARNING 2020-05-20 21:06:11,565 log 3104 8540 Not Found: /static/style.css
+WARNING 2020-05-20 21:06:11,566 basehttp 3104 8540 "GET /static/style.css HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:11,588 log 3104 1944 Not Found: /images/_112157681_gettyimages-621744270.jpg
+WARNING 2020-05-20 21:06:11,589 basehttp 3104 1944 "GET /images/_112157681_gettyimages-621744270.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:11,610 log 3104 5020 Not Found: /images/_112037539_bannerhorizontal_2k-nc.png
+WARNING 2020-05-20 21:06:11,611 basehttp 3104 5020 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:11,749 log 3104 5020 Not Found: /images/image.jpg
+WARNING 2020-05-20 21:06:11,755 log 3104 1944 Not Found: /images/_112037539_bannerhorizontal_2k-nc.png
+WARNING 2020-05-20 21:06:11,757 log 3104 8540 Not Found: /images/millie.jpg
+WARNING 2020-05-20 21:06:11,765 log 3104 6464 Not Found: /images/climate.jpg
+WARNING 2020-05-20 21:06:11,767 basehttp 3104 5020 "GET /images/image.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:11,767 basehttp 3104 1944 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:11,768 basehttp 3104 8540 "GET /images/millie.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:11,770 basehttp 3104 6464 "GET /images/climate.jpg HTTP/1.1" 404 179
+INFO 2020-05-20 21:06:43,617 autoreload 3104 5856 D:\STUDY\Python\Lab3_another_try\myfirst\myfirst\settings.py changed, reloading.
+INFO 2020-05-20 21:06:46,077 autoreload 9640 2200 Watching for file changes with StatReloader
+INFO 2020-05-20 21:06:51,731 basehttp 9640 2360 "GET / HTTP/1.1" 200 15293
+WARNING 2020-05-20 21:06:51,792 log 9640 2360 Not Found: /static/style.css
+WARNING 2020-05-20 21:06:51,793 basehttp 9640 2360 "GET /static/style.css HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:51,793 log 9640 9696 Not Found: /images/_112157681_gettyimages-621744270.jpg
+WARNING 2020-05-20 21:06:51,798 basehttp 9640 9696 "GET /images/_112157681_gettyimages-621744270.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:51,808 log 9640 8288 Not Found: /images/_112037539_bannerhorizontal_2k-nc.png
+WARNING 2020-05-20 21:06:51,810 basehttp 9640 8288 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:51,932 log 9640 8288 Not Found: /images/image.jpg
+WARNING 2020-05-20 21:06:51,936 log 9640 9696 Not Found: /images/_112037539_bannerhorizontal_2k-nc.png
+WARNING 2020-05-20 21:06:51,937 log 9640 2360 Not Found: /images/millie.jpg
+WARNING 2020-05-20 21:06:51,946 log 9640 2908 Not Found: /images/climate.jpg
+WARNING 2020-05-20 21:06:51,947 basehttp 9640 8288 "GET /images/image.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:51,948 basehttp 9640 9696 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:51,949 basehttp 9640 2360 "GET /images/millie.jpg HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:51,950 basehttp 9640 2908 "GET /images/climate.jpg HTTP/1.1" 404 179
+INFO 2020-05-20 21:06:54,486 basehttp 9640 2908 "GET /myprofile/ HTTP/1.1" 200 4082
+WARNING 2020-05-20 21:06:54,536 log 9640 2908 Not Found: /static/css/styles.css
+WARNING 2020-05-20 21:06:54,539 log 9640 2360 Not Found: /images/prof_pic1.png
+WARNING 2020-05-20 21:06:54,541 basehttp 9640 2908 "GET /static/css/styles.css HTTP/1.1" 404 179
+WARNING 2020-05-20 21:06:54,545 basehttp 9640 2360 "GET /images/prof_pic1.png HTTP/1.1" 404 179
+INFO 2020-05-20 21:06:54,841 basehttp 9640 2360 "GET /favicon.ico/ HTTP/1.1" 200 2697
+INFO 2020-05-20 21:07:09,403 autoreload 9640 2200 D:\STUDY\Python\Lab3_another_try\myfirst\myfirst\settings.py changed, reloading.
+INFO 2020-05-20 21:07:48,990 autoreload 2360 2908 Watching for file changes with StatReloader
+INFO 2020-05-20 21:07:52,301 basehttp 2360 2428 "GET /myprofile/ HTTP/1.1" 200 4082
+INFO 2020-05-20 21:07:52,379 basehttp 2360 1212 "GET /images/prof_pic1.png HTTP/1.1" 200 28256
+WARNING 2020-05-20 21:07:52,422 basehttp 2360 2428 "GET /static/css/styles.css HTTP/1.1" 404 1668
+INFO 2020-05-20 21:07:52,592 basehttp 2360 1212 "GET /favicon.ico HTTP/1.1" 301 0
+INFO 2020-05-20 21:07:52,813 basehttp 2360 1212 "GET /favicon.ico/ HTTP/1.1" 200 2697
+INFO 2020-05-20 21:07:55,110 basehttp 2360 1212 "GET / HTTP/1.1" 200 15293
+WARNING 2020-05-20 21:07:55,159 basehttp 2360 1212 "GET /static/style.css HTTP/1.1" 404 1653
+INFO 2020-05-20 21:07:55,225 basehttp 2360 6096 "GET /images/_112037539_bannerhorizontal_2k-nc.png HTTP/1.1" 200 232473
+INFO 2020-05-20 21:07:55,228 basehttp 2360 3996 "GET /images/_112157681_gettyimages-621744270.jpg HTTP/1.1" 200 20534
+INFO 2020-05-20 21:07:55,477 basehttp 2360 3996 "GET /images/image.jpg HTTP/1.1" 200 122641
+INFO 2020-05-20 21:07:55,484 basehttp 2360 6096 "GET /images/millie.jpg HTTP/1.1" 200 258249
+INFO 2020-05-20 21:07:55,488 basehttp 2360 944 "GET /images/climate.jpg HTTP/1.1" 200 190480
+INFO 2020-05-20 21:08:32,798 autoreload 2360 2908 D:\STUDY\Python\Lab3_another_try\myfirst\myfirst\settings.py changed, reloading.
+INFO 2020-05-20 21:08:36,600 autoreload 8096 3220 Watching for file changes with StatReloader
+INFO 2020-05-20 21:08:53,405 basehttp 8096 9596 "GET / HTTP/1.1" 200 15293
+WARNING 2020-05-20 21:08:53,471 basehttp 8096 9596 "GET /static/style.css HTTP/1.1" 404 1653
+INFO 2020-05-20 21:09:00,639 basehttp 8096 5664 "GET /myprofile/ HTTP/1.1" 200 4082
+WARNING 2020-05-20 21:09:00,720 basehttp 8096 5664 "GET /static/css/styles.css HTTP/1.1" 404 1668
+INFO 2020-05-20 21:09:01,025 basehttp 8096 8992 "GET /favicon.ico/ HTTP/1.1" 200 2697
+INFO 2020-05-20 21:09:02,609 basehttp 8096 8992 "GET / HTTP/1.1" 200 15293
+WARNING 2020-05-20 21:09:02,665 basehttp 8096 8992 "GET /static/style.css HTTP/1.1" 404 1653
